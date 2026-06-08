@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#ui {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 999;
+}
+
+button {
+    padding: 12px;
+    font-size: 16px;
+}
+
+#infoBox {
+    margin-top: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+    width: 250px;
+}
